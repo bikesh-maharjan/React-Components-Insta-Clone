@@ -11,7 +11,6 @@ import Posts from "./components/Posts/Posts";
 import SearchBar from "./components/SearchBar/SearchBar";
 // Import the dummyData
 import dummyData from "./dummy-data";
-import Post from "./components/Posts/Post";
 import "./App.css";
 
 const App = () => {
@@ -41,7 +40,7 @@ const App = () => {
   return (
     <div className="App">
       {<SearchBar />}
-      {<Posts posts={} likePost={likePost} />}
+      {<Posts posts={posts} likePost={likePost} />}
       {/* Add SearchBar and Posts here to render them */}
       {/* Check the implementation of each component, to see what props they require, if any! */}
     </div>
