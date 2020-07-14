@@ -8,12 +8,8 @@ const Posts = (props) => {
 
   return (
     <div className="posts-container-wrapper">
-      {
-        /* map through the posts here to return a Post component */
-        posts.map((posts) => (
-          <Post post={posts} likePost={likePost} />
-        ))
-      }
+      {/* map through the posts here to return a Post component */}
+
       {/* Check the implementation of Post to see what props it requires! */}
     </div>
   );
